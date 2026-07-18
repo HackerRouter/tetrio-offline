@@ -1,0 +1,4 @@
+node_modules/
+offline-data/
+npm-debug.log*
+instructions.md

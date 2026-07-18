@@ -1,0 +1,16 @@
+{
+  "name": "tetrio-offline-local",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "A local, isolated offline launcher and resource archive for TETR.IO.",
+  "main": "src/main.js",
+  "scripts": {
+    "cache:prepare": "electron . --prepare",
+    "start:offline": "electron . --offline",
+    "test": "node --test test/*.test.js"
+  },
+  "devDependencies": {
+    "electron": "43.1.1"
+  }
+}
